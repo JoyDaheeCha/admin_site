@@ -1,5 +1,12 @@
-<!DOCTYPE html>
-<html dir="ltr">
+<%--
+Created by IntelliJ IDEA.
+User: user
+Date: 2020-03-13
+Time: 오후 4:00
+To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" %>
+<html>
 
 <head>
     <meta charset="utf-8">
@@ -40,10 +47,10 @@
         <!-- ============================================================== -->
         <div class="error-box">
             <div class="error-body text-center">
-                <h1 class="error-title text-danger">405</h1>
+                <h1 class="error-title text-danger">403</h1>
                 <h3 class="text-uppercase error-subtitle">PAGE NOT FOUND !</h3>
                 <p class="text-muted m-t-30 m-b-30">YOU SEEM TO BE TRYING TO FIND HIS WAY HOME</p>
-                <a href="../Dashboard/index.html" class="btn btn-danger btn-rounded waves-effect waves-light m-b-40">Back to home</a> </div>
+                <a href="../Dashboard/index.jsp" class="btn btn-danger btn-rounded waves-effect waves-light m-b-40">Back to home</a> </div>
         </div>
         <!-- ============================================================== -->
         <!-- Login box.scss -->
@@ -64,10 +71,10 @@
     <!-- ============================================================== -->
     <!-- All Required js -->
     <!-- ============================================================== -->
-    <script src="../../../../temp/assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="../../libs/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap tether Core JavaScript -->
-    <script src="../../../../temp/assets/libs/popper.js/dist/umd/popper.min.js"></script>
-    <script src="../../../../temp/assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../../libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../../libs/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- ============================================================== -->
     <!-- This page plugin js -->
     <!-- ============================================================== -->

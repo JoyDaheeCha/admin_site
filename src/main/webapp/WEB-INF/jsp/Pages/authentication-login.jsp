@@ -1,5 +1,12 @@
-<!DOCTYPE html>
-<html dir="ltr">
+<%--
+Created by IntelliJ IDEA.
+User: user
+Date: 2020-03-13
+Time: 오후 4:00
+To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" %>
+<html>
 
 <head>
     <meta charset="utf-8">
@@ -45,7 +52,7 @@
                         <span class="db"><img src="../../../images/logo.png" alt="logo" /></span>
                     </div>
                     <!-- Form -->
-                    <form class="form-horizontal m-t-20" id="loginform" action="../Dashboard/index.html">
+                    <form class="form-horizontal m-t-20" id="loginform" action="../Dashboard/index.jsp">
                         <div class="row p-b-30">
                             <div class="col-12">
                                 <div class="input-group mb-3">
@@ -80,7 +87,7 @@
                     </div>
                     <div class="row m-t-20">
                         <!-- Form -->
-                        <form class="col-12" action="../Dashboard/index.html">
+                        <form class="col-12" action="../Dashboard/index.jsp">
                             <!-- email -->
                             <div class="input-group mb-3">
                                 <div class="input-group-prepend">
@@ -119,10 +126,10 @@
     <!-- ============================================================== -->
     <!-- All Required js -->
     <!-- ============================================================== -->
-    <script src="../../../../temp/assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="../../libs/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap tether Core JavaScript -->
-    <script src="../../../../temp/assets/libs/popper.js/dist/umd/popper.min.js"></script>
-    <script src="../../../../temp/assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../../libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../../libs/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- ============================================================== -->
     <!-- This page plugin js -->
     <!-- ============================================================== -->
