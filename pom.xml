@@ -28,7 +28,7 @@
         <slf4j.version>1.7.5</slf4j.version>
 
         <!-- Test -->
-        <org.junit.version>4.11</org.junit.version>
+        <org.junit.version>4.13.1</org.junit.version>
     </properties>
 
     <dependencies>
